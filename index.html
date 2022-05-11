@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<title>Maths Dash Speed Sums</title>
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="theme-color" content="#444">
+<link rel="stylesheet" href="mathsdash.css?6">
+</head>
+
+<body>
+
+<header>
+	<h1>Maths Dash</h1>
+	
+	<div class="config"></div>
+	
+	<h2 id="userName"></h2>
+	
+</header>
+
+<canvas id="canvas"></canvas>
+
+<div style="display: none">
+	<!-- preload -->
+	<img src="images/tortoise.png">
+	<img src="images/giraffe.png">
+	<img src="images/leopard.png">
+	<img src="images/star.png">
+
+</div>
+
+
+
+<div id="buttonBar">
+	<div id="btnBack" class="button">go again</div>
+	<div id="btnNext" class="button right">next &gt;</div>
+</div>
+
+<div id="gameIntro">
+Test
+</div>
+
+<div id="questionArea">
+	Loading...
+</div>
+
+<div id="results">
+</div>
+
+<div id="progressBar">
+	<div></div>
+</div>
+
+<div class="resultitems">
+	<div class="item">
+		<img src="images/correct.png">
+		<div id="result_correct"></div>
+	</div>
+	<div class="item">
+		<img src="images/target.png">
+		<div id="result_accuracy"></div>
+	</div>
+	<div class="item">
+		<img src="images/hourglass.png">
+		<div id="result_speed"></div>
+	</div>
+	<!--<div class="item">
+		<img src="images/incorrect.png">
+		<div id="result_incorrect"></div>
+	</div>-->
+
+</div>
+
+<div id="details">
+</div>
+
+<div id="keyboard">
+<div>7</div><div>8</div><div>9</div>
+<div>4</div><div>5</div><div>6</div>
+<div>1</div><div>2</div><div>3</div>
+<div>&lt;</div><div>0</div><div>Go</div>
+</div>
+
+
+<script src="mathsdash.js?15"></script>
+
+</body>
+</html>
